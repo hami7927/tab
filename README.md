@@ -45,7 +45,7 @@ pip install configparser
 |cv2|画像処理|
 |numpy|cv2での画像格納|
 |pyws|window id 扱うため|
-|pywin32|win32guiはを利用するため|
+|pywin32|win32guiを利用するため|
 |playsoud|wav,mp3を鳴らすため。最新版（1.3.0）だとファイルロード時に落ちた|
 |Pillow|ImageGrab を使うため|
 |configparser|iniファイルの読み込み|
