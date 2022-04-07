@@ -30,14 +30,14 @@ alert 項目はアラート用の音源ファイル名になります。 wav フ
 ## python.pyを利用する場合
 pythonをインストールします。開発環境は 3.9.7 を利用しました。
 
-以下のpipコマンドでライブラリをインストールします
-pip install cv2
-pip install numpy
-pip install pyws
-pip install pywin32
-pip install playsound==1.2.2
-pip install Pillow
-pip install configparser
+以下のpipコマンドでライブラリをインストールします  
+pip install cv2  
+pip install numpy  
+pip install pyws  
+pip install pywin32  
+pip install playsound==1.2.2  
+pip install Pillow  
+pip install configparser  
 
 各ライブラリの用途は以下の通りです。
 |ライブラリ|用途|
@@ -48,7 +48,7 @@ pip install configparser
 |pywin32|win32guiはを利用するため|
 |playsoud|wav,mp3を鳴らすため。最新版（1.3.0）だとファイルロード時に落ちた|
 |Pillow|ImageGrab を使うため|
-|configparser|iniファイルの読み込みに利用|
+|configparser|iniファイルの読み込み|
   
   
 # プログラムの起動
