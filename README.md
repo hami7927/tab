@@ -51,7 +51,7 @@ pip install configparser
 |configparser|iniファイルの読み込み|
   
   
-# プログラムの起動
+# プログラムの起動方法
 起動は They Are Billions の起動前、起動中どちらでも構いません。
 
 ## exeファイルを利用する場合
