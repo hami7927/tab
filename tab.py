@@ -64,9 +64,9 @@ try:
             continue
 
         m_img = CutMiniMapRect(img)
-        r_img = cv2.inRange(m_img, np.array([200,0,0], np.uint8), np.array([255,100,100], np.uint8))
+        r_img = cv2.inRange(m_img, np.array([200,0,0], m_img.dtype), np.array([255,100,100], m_img.dtype))
         res_img = g_img & r_img
-        g_img = cv2.inRange(m_img, np.array([0,100,0], np.uint8), np.array([100,255,100], np.uint8))
+        g_img = cv2.inRange(m_img, np.array([0,100,0], m_img.dtype), np.array([100,255,100], m_img.dtype))
         if np.any(res_img):
             Alert()
 
