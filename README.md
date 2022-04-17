@@ -2,13 +2,23 @@
 They Are Billionsのアラートバグ対策ツール。ミニマップを監視し、攻撃を検知した場合アラート用の音源を鳴らします。
   
   
+# ファイルの説明
+|ファイル名|説明|
+----|---- 
+|tab.ini|設定ファイル|
+|tab.py|アラートバグ対策ツール|
+|tab.exe|tab.py を pyinstaller で exe 化したもの|
+|tab_env.py|環境調査ツール|
+|tab_env.exe|tab_env.py を pyinstaller で exe 化したもの|
+  
+  
 # 設定
 
 ## tab.iniの編集
 tab.iniをメモ帳等のエディタで開きます。
 They Are Billions の解像度に対応した値に top 項目を編集する必要があります。
 
-| 解像度 |topの値 |
+|解像度|topの値|
 ----|---- 
 | 1360x768 | 589 |
 | 1920x1080 | 830 |
