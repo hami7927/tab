@@ -39,7 +39,7 @@ pip install pyws
 pip install pywin32  
 pip install playsound==1.2.2  
 pip install configparser  
-pip install threading
+pip install threading  
 pip install wxPython
 
 各ライブラリの用途は以下の通りです。
